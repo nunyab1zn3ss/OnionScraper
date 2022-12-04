@@ -2,13 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import socket
 
-# Set the keywords to search for
+# TO DO: Set the keywords to search for
 keywords = ["hacking", "malware", "phishing"]
 
 # Set the URL of the darknet search engine
 url = "http://darksearchengine.onion"
 
-# Set the search query
+# TO DO: Set the search query
 query = "example"
 
 # Send a request to the darknet search engine and retrieve the HTML response
