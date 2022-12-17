@@ -10,7 +10,6 @@ url = "http://darksearchengine.onion"
 
 # TO DO: Set the search query
 query = "example"
-
 response = requests.get(url, params={"q": query})
 soup = BeautifulSoup(response.text, "html.parser")
 links = soup.find_all("a", href=lambda href: href and href.endswith(".onion"))
